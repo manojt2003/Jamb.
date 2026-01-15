@@ -77,21 +77,21 @@ export default function ContentImageSection({
               {secondaryButtonText?.trim() && (
                 <button
                   className="
-        px-3 py-2
-        sm:px-4 sm:py-2
-        md:px-5 md:py-[10px]
-        border border-[#8B8B8B]
-        text-[#737373]
-        text-[clamp(11px,1.2vw,12px)]
-        tracking-[0.14em]
-        uppercase
-        leading-none
-        font-serif
-        transition
-        cursor-pointer
-        hover:bg-emerald-900 hover:text-white
-        w-fit
-      "
+                  px-3 py-2
+                  sm:px-4 sm:py-2
+                  md:px-5 md:py-[10px]
+                  border border-[#8B8B8B]
+                  text-[#737373]
+                  text-[clamp(11px,1.2vw,12px)]
+                  tracking-[0.14em]
+                  uppercase
+                  leading-none
+                  font-serif
+                  transition
+                  cursor-pointer
+                  hover:bg-emerald-900 hover:text-white
+                  w-fit
+                "
                 >
                   {secondaryButtonText}
                 </button>

@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-[1512px] mx-auto px-6 lg:px-12 py-12 min-h-[759px]">
         {/* TOP SECTION: Contact, Email and Newsletter */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8 items-start">
-          <div className="lg:col-span-3 w-[257px] h-[96px] font-sans text-[#737373] text-[14px] leading-relaxed text-left">
+          <div className="lg:col-span-3 w-[257px] h-[96px] font-sans text-[#9c9c9d] text-[16px] leading-relaxed text-left">
             <p>Tel: +44 (0) 207 730 2122</p>
             <div className="mt-3">
               <p>95–97 Pimlico Rd</p>
@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex lg:col-span-4 w-[257px] h-[96px] grid grid-cols text-[#737373] font-sans text-[14px] text-left">
+          <div className="flex lg:col-span-4 w-[257px] h-[96px] grid grid-cols text-[#9c9c9d] font-sans text-[16px] text-left">
             <a
               href="mailto:hello@jamb.co.uk"
               className="hover:text-[#33691E] transition-colors "
@@ -28,27 +28,27 @@ export default function Footer() {
 
           <div className="lg:col-span-5 flex flex-col items-start w-full ">
             <div className="md:ml-auto max-w-md">
-              <p className="font-sans text-[#737373] text-[clamp(14px,1.4vw,16px)] mb-2">
+              <p className="font-sans text-[#9c9c9d] text-[clamp(14px,1.4vw,16px)] mb-2">
                 Newsletter
               </p>
 
-              <div className="flex border text-[#737373] border-[#B5B5B5] bg-white/20">
+              <div className="flex border text-[#9c9c9d] border-[#B5B5B5] bg-white/20">
                 <input
                   type="email"
                   placeholder="Search"
-                  className="w-[401px] h-[43px] bg-transparent px-4 font-sans text-[13px] outline-none"
+                  className="w-[401px] h-[43px] bg-transparent px-4 font-sans text-[16px] outline-none"
                 />
-                <button className="w-[151px] h-[43px] cursor-pointer font-sans uppercase tracking-widest text-[10px] text-[#33691E] border-l border-[#B5B5B5] hover:bg-[#33691E] hover:text-white transition-all">
+                <button className="w-[151px] h-[43px] cursor-pointer font-sans uppercase tracking-widest text-[16px] text-[#33691E] border-l border-[#9c9c9d] hover:bg-[#33691E] hover:text-white transition-all">
                   Subscribe
                 </button>
               </div>
-              <label className="mt-2 w-[257px] h-[39px] flex text-[#737373] items-center gap-2 font-sans text-[12px]">
+              <label className="mt-2 w-[257px] h-[39px] flex text-[#9c9c9d] items-center gap-2 font-sans text-[16px]">
                 <input
                   type="checkbox"
-                  className="rounded-4xl border-checkbox text-[#737373] cursor-pointer"
+                  className="rounded-4xl border-checkbox text-[#9c9c9d] text-[16px] cursor-pointer"
                 />
                 I agree to our{" "}
-                <span className="underline text-[#737373] cursor-pointer text-[#33691E] hover:text-[#33691E]/80">Privacy Policy</span>
+                <span className="underline text-[#9c9c9d] cursor-pointer text-[#33691E] text-[16px] hover:text-[#33691E]/80">Privacy Policy</span>
               </label>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Footer() {
             <div className="border-t border-gray-400 pt-3 text-left">
               <Link
                 href="#"
-                className="font-sans font-bold text-[#333] text-[13px] hover:text-[#33691E] transition-colors block"
+                className="font-sans font-bold text-[#333] text-[16px] hover:text-[#33691E] transition-colors block"
               >
                 Sell an Antique Chimneypiece
               </Link>
@@ -157,10 +157,10 @@ function FooterColumn({ title, items }: { title: string; items: string[] }) {
       <h3 className="font-sans text-[15px] text-[#000000] font-bold text-[#333] mb-1 border-t border-gray-400 pt-0.5 leading-tight">
         {title}
       </h3>
-      <ul className="font-sans text-[12px] text-[#737373] space-y-0">
+      <ul className="font-sans text-[16px] text-[#9c9c9d] space-y-0">
         {items.map((item) => (
           <li key={item}>
-            <Link href="#" className="text-[#737373] hover:text-[#33691E] transition-colors block">
+            <Link href="#" className="text-[#9c9c9d] hover:text-[#33691E] transition-colors block">
               {item}
             </Link>
           </li>
