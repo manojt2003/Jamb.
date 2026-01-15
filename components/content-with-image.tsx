@@ -102,13 +102,13 @@ export default function ContentImageSection({
           {/* IMAGE */}
           <motion.div
             className="
-    relative
-    w-full
-    aspect-[6/9]
-    overflow-hidden
-    flex
-    items-center
-    justify-center
+            relative
+            w-full
+            aspect-[6/9]
+            overflow-hidden
+            flex
+            items-center
+            justify-center
   "
           >
             <motion.img

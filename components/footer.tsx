@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -16,10 +17,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex lg:col-span-3 w-[257px] h-[96px] text-[#737373] font-sans text-[14px] text-left">
+          <div className="flex lg:col-span-4 w-[257px] h-[96px] grid grid-cols text-[#737373] font-sans text-[14px] text-left">
             <a
               href="mailto:hello@jamb.co.uk"
-              className="hover:text-[#33691E] transition-colors"
+              className="hover:text-[#33691E] transition-colors "
             >
               hello@jamb.co.uk
             </a>
@@ -73,7 +74,7 @@ export default function Footer() {
             <div className="border-t border-gray-400 pt-3 text-left">
               <Link
                 href="#"
-                className="font-sans font-normal text-[#333] text-[13px] hover:text-[#33691E] transition-colors block"
+                className="font-sans font-bold text-[#333] text-[13px] hover:text-[#33691E] transition-colors block"
               >
                 Sell an Antique Chimneypiece
               </Link>

@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/30 border-b border-emerald-900">
       <div className="max-w-7xl mx-auto px-[41px]">
-        <div className="flex h-16 items-center justify-between ">
+        <div className="flex h-16 items-center justify-between top-[32px] left-[41px]">
           {/* LOGO */}
           <Link href="/" aria-label="Jamb Home">
             <span

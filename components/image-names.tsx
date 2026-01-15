@@ -10,7 +10,8 @@ export default function Names() {
             flex flex-wrap
             justify-center
             items-center
-            gap-0 sm:gap-4
+            gap-0
+            sm:gap-4
             font-serif
             text-[13px]
             sm:text-[15px]
@@ -22,7 +23,7 @@ export default function Names() {
           {names.map((item, index) => (
             <li
               key={item.name}
-              className="flex items-center font-normal hover:text-[#1A1A1A] transition-colors duration-300"
+              className="flex items-center font-normal hover:text-[#1A1A1A] top-[907px] left-[543px] transition-colors duration-300"
             >
               {item.name}
 
