@@ -35,12 +35,12 @@ export function ProductCard({
     >
       <Card
         className="
-    h-full
-    bg-transparent
-    shadow-none
-    rounded-none
-    border-[#ECEBE7]
-  "
+        h-full
+        bg-transparent
+        shadow-none
+        rounded-none
+        border-[#ECEBE7]
+      "
       >
         <CardContent className="p-4 flex flex-col items-center text-center">
           {/* IMAGE FRAME (STATIC) */}

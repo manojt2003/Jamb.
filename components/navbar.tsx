@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-[41px]">
         <div className="flex h-16 items-center justify-between top-[32px] left-[41px]">
           {/* LOGO */}
-          <Link href="/" aria-label="Jamb Home">
+          <Link href="#" aria-label="Jamb Home">
             <span
               className="
                 block
