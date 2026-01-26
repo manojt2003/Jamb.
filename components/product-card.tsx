@@ -56,7 +56,7 @@ export function ProductCard({
               initial={
                 prefersReducedMotion
                   ? { opacity: 1 }
-                  : { scale: 1.08, opacity: 0 }
+                  : { scale: 1.09, opacity: 0 }
               }
               whileInView={
                 prefersReducedMotion ? { opacity: 1 } : { scale: 1, opacity: 1 }

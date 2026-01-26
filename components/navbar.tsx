@@ -14,17 +14,14 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="#" aria-label="Jamb Home">
             <span
-              className="
-                block
+              className="block
                 w-[108px]
                 h-[45px]
                 text-[40px]
                 leading-[45px]
                 font-normal
                 hero-font
-                text-gray-900
-              "
-            >
+                text-gray-900">
               Jamb.
             </span>
           </Link>
